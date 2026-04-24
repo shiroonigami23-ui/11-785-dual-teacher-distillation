@@ -17,10 +17,28 @@ The core training objective is:
 ## Why this project
 Most production voice-security systems run separate pipelines for speaker verification and spoof detection. This project explores a unified student model to reduce inference overhead while preserving task-specific quality.
 
+## Training Performance
+
+The dual-teacher distillation framework demonstrates strong convergence during fine-tuning.
+
+| Metric | Value |
+|---------|--------|
+| Best Total Loss | 0.005285 |
+| Final SV Loss | 0.002973 |
+| Final DF Loss | 0.002313 |
+| Training Epochs | 15 |
+| Training Phase | Fine-tuning |
+
+### Key Observation
+
+The total loss decreased from **1.56** at initialization to **0.0053** after fine-tuning, indicating effective knowledge transfer from both frozen teacher networks to the student model.
+
 ## Technical Tags
 `speech-processing` `speaker-verification` `deepfake-detection` `knowledge-distillation` `wav2vec2` `pytorch`
 
 ## Repository Contents
+The repository is organized into the following main components:
+
 - `notebooks/dual_teacher_colab_v3.ipynb` - end-to-end training notebook
 - `artifacts/metrics/train_meta.json` - run metadata + loss history
 - `artifacts/figures/loss_curves.png` - training loss visualization
