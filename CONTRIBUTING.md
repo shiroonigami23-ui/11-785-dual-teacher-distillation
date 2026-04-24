@@ -26,3 +26,13 @@ To ensure each member's contribution appears on GitHub:
 - Keep notebook sections modular and documented.
 - Do not commit large model checkpoints to git.
 - Store heavy artifacts outside the repo or use Git LFS if needed.
+
+## Pull Request Checklist
+
+Before submitting a pull request, please ensure that:
+
+- [ ] Your branch is up to date with `main`.
+- [ ] Changes are limited to a single feature or fix.
+- [ ] Code and notebooks have been tested locally.
+- [ ] Documentation has been updated, if necessary.
+- [ ] Commit messages follow the repository conventions.
