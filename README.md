@@ -49,6 +49,7 @@ Most production voice-security systems run separate pipelines for speaker verifi
 
 Mentor: Prof. Massa Baali  
 Course: 11-785
+Team: 45 
 
 ## Contribution Guide
 If you are a project member, please use your own GitHub account and open pull requests from your own branch so individual contributions are visible on GitHub.
