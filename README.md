@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.gif" alt="Dual-Teacher Distillation with Wav2Vec2 animated banner" width="100%">
+<img src="artifacts/figures/loss_curves.png" alt="Dual-Teacher Distillation with Wav2Vec2" width="85%">
+
+<sub>Distillation loss curves — total loss 1.56 → 0.0053</sub>
 
 # 🎙️ Dual-Teacher Distillation with Wav2Vec2
 
@@ -17,10 +19,6 @@
 </div>
 
 ---
-
-## 📸 Preview
-
-<p align="center"><img src="artifacts/figures/loss_curves.png" alt="Dual-Teacher Distillation with Wav2Vec2 preview" width="85%"></p>
 
 ## 📖 Overview
 
