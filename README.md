@@ -2,8 +2,6 @@
 
 <img src="artifacts/figures/loss_curves.png" alt="Dual-Teacher Distillation with Wav2Vec2" width="85%">
 
-<sub>Distillation loss curves — total loss 1.56 → 0.0053</sub>
-
 # 🎙️ Dual-Teacher Distillation with Wav2Vec2
 
 ### One wav2vec2 student, two frozen teachers — speaker verification and deepfake detection in a single model
